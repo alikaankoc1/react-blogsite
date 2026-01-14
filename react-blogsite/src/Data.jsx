@@ -2,7 +2,7 @@ import dpu from "./images/dpu.jpeg";
 import ktu from "./images/firat.jpeg";
 import firat from "./images/ktu.webp";
 import sitki from "./images/sitkikocman.jepg.jpeg";
-const city = [
+export const city = [
   {
     id: 1,
     title: "Dumlupınar Üniversitesi",
