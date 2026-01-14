@@ -7,9 +7,11 @@ function App() {
   return (
     <div>
       <Header />
-      {city?.map((uni) => (
-        <City key={uni.id} uni={uni} />
-      ))}
+      <div className="city-list">
+        {city?.map((uni) => (
+          <City key={uni.id} uni={uni} />
+        ))}
+      </div>
     </div>
   );
 }
